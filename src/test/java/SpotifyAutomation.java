@@ -42,7 +42,7 @@ public class SpotifyAutomation {
         driver.findElement(By.xpath("//span[contains(text(), 'Log out')]")).click();
 
         WebElement logInBtn = driver.findElement(By.xpath("//span[contains(text(), 'Log in')]"));
-        Assert.assertTrue( icon.isDisplayed());
+        Assert.assertTrue( logInBtn.isDisplayed());
         Thread.sleep(1000);
 
         driver.quit();
