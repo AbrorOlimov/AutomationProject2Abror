@@ -8,6 +8,7 @@ import org.testng.Assert;
 import java.time.Duration;
 
 public class SpotifyAutomation {
+
     public static void main(String[] args) throws InterruptedException {
 
         WebDriver driver = new ChromeDriver();
